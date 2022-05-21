@@ -3,7 +3,7 @@ import SideNav from "./SideNav";
 
 const BasicLayout = ({ children }) => {
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <SideNav />
       {children}
     </div>
