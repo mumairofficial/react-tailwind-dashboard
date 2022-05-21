@@ -16,17 +16,13 @@ function Header() {
 
       <div className="p-2">
         <input
-          className="rounded-lg px-3 py-2 border border-gray-300 bg-gray-700 text-white"
+          className="rounded-lg px-3 py-2 border border-slate-600 bg-slate-900 text-white"
           placeholder="Token ID..."
           type="text"
         />
-        <a
-          className="bg-purple-500 px-3 py-3 rounded-lg"
-          href="https://www.google.com"
-          target={"_blank"}
-        >
+        <button className="bg-purple-700 ml-2 px-3 py-2 rounded-lg cursor-pointer">
           search
-        </a>
+        </button>
       </div>
     </div>
   );

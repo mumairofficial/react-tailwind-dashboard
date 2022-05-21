@@ -6,21 +6,21 @@ function TopCollections() {
       <div className="mr-8">Top collections:</div>
 
       <div className="flex">
-        <div className="flex border border-gray-300 rounded p-1 mr-2">
+        <div className="flex border border-gray-300 dark:border-slate-600 rounded p-1 mr-2">
           <div className="rounded bg-blue-500 px-1 mr-1">im</div>
-          <div className="text-purple-700 mr-1">Moonbird</div>
+          <div className="text-purple-500 mr-1">Moonbird</div>
           <div>has 6 listing until +30% floor</div>
         </div>
 
-        <div className="flex border border-gray-300 rounded p-1 mr-2">
+        <div className="flex border border-gray-300 dark:border-slate-600 rounded p-1 mr-2">
           <div className="rounded bg-blue-500 px-1 mr-1">im</div>
-          <div className="text-purple-700 mr-1">Moonbird</div>
+          <div className="text-purple-500 mr-1">Moonbird</div>
           <div>has 6 listing until +30% floor</div>
         </div>
 
-        <div className="flex border border-gray-300 rounded p-1 mr-2">
+        <div className="flex border border-gray-300 dark:border-slate-600 rounded p-1 mr-2">
           <div className="rounded bg-blue-500 px-1 mr-1">im</div>
-          <div className="text-purple-700 mr-1">Moonbird</div>
+          <div className="text-purple-500 mr-1">Moonbird</div>
           <div>has 6 listing until +30% floor</div>
         </div>
       </div>
