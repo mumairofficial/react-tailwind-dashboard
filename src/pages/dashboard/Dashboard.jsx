@@ -4,6 +4,8 @@ import MiniHorizontalScrollableWidgets from "./components/MiniHorizontalScrollab
 import TopCollections from "./components/TopCollections";
 import Listings from "./components/listings/Listings";
 import TradeListings from "./components/trade/TradeListings";
+import TradeChart from "./components/TradeChart";
+import LiveListingChart from "./components/LiveListingChart";
 
 function Dashboard() {
   return (
@@ -23,7 +25,10 @@ function Dashboard() {
           <TradeListings />
         </div>
 
-        <div className="flex-1">Analytics</div>
+        <div className="flex-1">
+          <TradeChart />
+          <LiveListingChart />
+        </div>
       </div>
     </div>
   );
